@@ -1,0 +1,83 @@
+body{
+    height: 1200px;
+    width: 100%;
+
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(211, 142, 211);
+    
+}
+.bodydiv{
+    height: 1200px;
+    width: 100%;
+    justify-content: center;
+    background-color: rgb(211, 142, 211);
+    
+}
+.com{
+    display: flex;
+    height: 800px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+.content{
+    
+    height: 800px;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.triangle{
+    visibility: hidden;
+    /* height: 400px;
+    width: 100%; */
+    border-bottom: 250px solid rgb(255, 176, 255);
+    border-left: 250px solid transparent;
+    border-right: 250px solid transparent;
+    border-top: 0px solid transparent;
+    filter: drop-shadow(10px 10px 10px);
+    
+    
+}
+.box{
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    background-color: rgb(255, 176, 255);
+    box-shadow: 5px 5px 5px;
+    z-index: 2;
+}
+.teks{
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    background-color: rgb(255, 176, 255);
+    z-index: 3;
+}
+.button{
+    display: flex;
+    height: 200px;
+    width: 100%;
+    justify-content: center;
+    /* align-items: center; */
+}
+@font-face{
+    font-family: minecraft;
+    src: url(MinecraftRegular-Bmg3.otf);
+}
+.button1{
+    height: 50px;
+    width: 500px;
+    background-color: rgb(255, 176, 255);
+    text-shadow: 2px 2px 2px black;
+    color: white;
+    box-shadow: 5px 5px 5px black;
+    font-size: 30px;
+    font-family: minecraft;
+    border-radius: 0px 0px 0px 0px;
+    border-color: rgb(255, 176, 255);
+}
