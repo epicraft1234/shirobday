@@ -84,8 +84,8 @@ function close(){
 
     surat.appendChild(judul);
 
-    content.style.height = "500px";
-    document.getElementById('box').style.height = "500px";
+    content.style.height = "350px";
+    document.getElementById('box').style.height = "350px";
     document.getElementById('com').style.marginTop = "200px";
     document.getElementById('teks').style.height = "800px";
 
@@ -124,5 +124,6 @@ function close(){
 
 
 }
+
 
 
