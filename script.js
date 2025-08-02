@@ -84,10 +84,10 @@ function close(){
 
     surat.appendChild(judul);
 
-    content.style.height = "400px";
-    document.getElementById('box').style.height = "400px";
+    content.style.height = "700px";
+    document.getElementById('box').style.height = "700px";
     document.getElementById('com').style.marginTop = "200px";
-    document.getElementById('teks').style.height = "400px";
+    document.getElementById('teks').style.height = "700px";
 
     judul.style.justifyContent = "center";
     judul.style.display = "flex";
@@ -124,6 +124,7 @@ function close(){
 
 
 }
+
 
 
 
