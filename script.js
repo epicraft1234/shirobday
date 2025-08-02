@@ -103,7 +103,7 @@ function close(){
     // judul.style.marginBottom = "30px";
 
     const kalimat = document.createElement('p');
-    const tekskalimat = document.createTextNode('(Gw lupa teksnya ...) Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam mollitia repellendus ad, nemo minus unde, quis ducimus hic ratione deleniti, laborum nesciunt inventore. Impedit quam voluptatem vel vero, consectetur repellat?');
+    const tekskalimat = document.createTextNode('Happy birthday kak, the beautiful girl, the sweet girl, the loving girl, the smart girl, the independent girl, the sunflower girl, the genuinely kind hearted girl. Thank you for holding on, thank you for growing up with very strong. I dont have much to say, i just want you to be yourself, love yourself, and spend time by time with sincerity. Wherever and whenever you are, stay kind, humble, and happy. Please, never be afraid to step forward and keep going on to through the day. There will be many people who love, take care of, and support you, so keep being the cheerful and positive girl. You have done your best. You nailed it to through today so up, Congratulations! All prayers and hopes are bless with you.');
 
     kalimat.appendChild(tekskalimat);
     surat.appendChild(kalimat);
@@ -120,6 +120,7 @@ function close(){
     kalimat.style.color = "white";
     kalimat.style.marginLeft = "30px";
     kalimat.style.marginRight = "30px";
+
 
 
 }
